@@ -1,7 +1,6 @@
 public abstract class Vehicle  {
     private String modelName;
     private int wheelsCount;
-
     public Vehicle(String modelName,
                    int wheelsCount) {
         this.modelName = modelName;
@@ -10,7 +9,6 @@ public abstract class Vehicle  {
     public String getModelName() {
         return modelName;
     }
-
 
 
 

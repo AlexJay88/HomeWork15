@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
     Car car = new Car("car", 4);
     Car car2 = new Car("car2", 4);
     Truck truck = new Truck("truck", 6);
@@ -16,7 +15,6 @@ public class Main {
         station.check(bicycle2);
         station.check(truck);
         station.check(truck2);
-
 
 }}
 

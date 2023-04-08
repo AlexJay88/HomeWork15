@@ -9,6 +9,5 @@ public abstract class AutomaticVehicles extends Vehicle {
     }
 
 
-
     }
 

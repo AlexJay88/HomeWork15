@@ -6,7 +6,6 @@ public class Truck extends Car {
         super(modelName, wheelsCount);
     }
 
-
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
