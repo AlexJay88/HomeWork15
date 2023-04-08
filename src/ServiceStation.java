@@ -6,9 +6,7 @@ public class ServiceStation {
                 vehicle.updateTyre();
             }
             vehicle.getRepair();
-
             System.out.println();
-
         }
         }
     }

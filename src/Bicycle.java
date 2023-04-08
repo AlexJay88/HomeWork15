@@ -10,4 +10,5 @@ public class Bicycle extends Vehicle{
     }
     public void getRepair(){
     }
+
 }

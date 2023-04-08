@@ -18,8 +18,6 @@ public abstract class Vehicle  {
         return wheelsCount;
     }
 
-
-
     public abstract void updateTyre();
     public abstract void getRepair();
 
