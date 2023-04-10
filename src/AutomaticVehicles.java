@@ -7,8 +7,10 @@ public abstract class AutomaticVehicles extends Vehicle {
     public void getEngine() {
         System.out.println("У транспортного средства есть двигатель ");
     }
-
-
+    @Override
+    public void updateTyre() {
+        super.updateTyre();
+    }
 
     }
 

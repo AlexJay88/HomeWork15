@@ -1,4 +1,4 @@
-public class Truck extends Car {
+public class Truck extends AutomaticVehicles {
 
     public Truck(String modelName,
                  int wheelsCount)
@@ -7,9 +7,8 @@ public class Truck extends Car {
     }
 
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
+
+
 
     public void checkEngine() {
 
@@ -24,6 +23,8 @@ public class Truck extends Car {
         checkEngine();
         checkTrailer();
         getEngine();
+
+
 
 
     }
