@@ -1,14 +1,6 @@
-public class ServiceStation {
-    public void check(Vehicle vehicle) {
-        if (vehicle != null) {
-            System.out.println("Обслуживаем " + vehicle.getModelName());
-            for (int i = 0; i < vehicle.getWheelsCount();i++) {
-                vehicle.updateTyre();
+public class  ServiceStation {
+    public void check(Diagnostic diagnostic) {
+        diagnostic.service();
 
-            }
-            vehicle.getRepair();
-            System.out.println();
-
-        }
-        }
     }
+}

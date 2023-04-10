@@ -5,27 +5,20 @@ public class Truck extends AutomaticVehicles {
     {
         super(modelName, wheelsCount);
     }
-
-
-
-
-
-    public void checkEngine() {
-
-        System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
+    private void checkTrailer() {
         System.out.println("Проверяем прицеп");
+
     }
-    public void getRepair(){
 
-        checkEngine();
+    @Override
+    public void service() {
+        super.service();
         checkTrailer();
-        getEngine();
-
-
-
-
     }
 }
+
+
+
+
+
+

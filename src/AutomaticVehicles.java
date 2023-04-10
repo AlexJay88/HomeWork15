@@ -4,13 +4,17 @@ public abstract class AutomaticVehicles extends Vehicle {
         super(modelName, wheelsCount);
     }
 
-    public void getEngine() {
-        System.out.println("У транспортного средства есть двигатель ");
-    }
-    @Override
-    public void updateTyre() {
-        super.updateTyre();
+    private void checkEngine(){
+        System.out.println("Проверяем двигатель");
     }
 
+    @Override
+    public void service() {
+        super.service();
+        checkEngine();
     }
+}
+
+
+
 

@@ -5,17 +5,4 @@ public class Car extends AutomaticVehicles {
     }
 
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
-
-    public void getRepair(){
-
-        checkEngine();
-        getEngine();
-
-
-    }
-
-
-}
